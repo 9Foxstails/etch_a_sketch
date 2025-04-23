@@ -25,7 +25,7 @@ function clackFn(e)
     let y=1;
     if(e.target.classList=="button")
     {
-        y=prompt("Enter a number between 2 and 100");
+        y=prompt("Enter a number between 0 and 100");
         while(y>100)
         {
             y=prompt("Enter a number between 0 and 100");
